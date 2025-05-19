@@ -8,7 +8,7 @@ This project aimed at bridging the gap between gold-standard clinical sleep moni
 
 **Human sleep scoring:** To ensure robust and reliable sleep staging, we followed a rigorous labeling process. **Three expert sleep scorers independently annotated the PSG recordings** following criteria developed by the American Academy of Sleep Medicine (AASM) (Berry et al., 2015). From the resulting three scorings, a **consensus label** was derived: each epoch of sleep data received the label scored by at least two of the scorers. In cases where all three scorers had given different labels, a fourth scorer made the final decision. This consensus labeling approach addresses the inherent variability in human-derived sleep scoring, with an estimated inter-scorer agreement of approximately 85% (Danker-Hopfe et al., 2009; Rosenberg and Van Hout, 2013).
 
-**Automatic scoring:** We used the human expert consensus labels to train a deep learning model (Esparza-Iaizzo et al., 2024). By implementing a cross-validation procedure, we trained and validated the model separately on the PSG and wearable EEG datasets. The model achieved an 87.08% match between human-consensus and network-provided labels for the PSG data, and an 86.64% match for the wearable EEG data.
+**Automatic scoring:** We used the human expert consensus labels to train a deep learning model (Esparza-Iaizzo et al., 2024). By implementing a cross-validation procedure, we trained and validated the model separately on the PSG and wearable EEG datasets. The model achieved an 87.13% match between human-consensus and network-provided labels for the PSG data, and an 86.71% match for the wearable EEG data.
 
 Our dataset includes:
 
