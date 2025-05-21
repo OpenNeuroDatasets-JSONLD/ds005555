@@ -35,5 +35,8 @@
     "Name": "The Bitbrain Open Access Sleep (BOAS) dataset",
     "ReferencesAndLinks": [
         "https://www.bitbrain.com"
+    ],
+    "EthicsApprovals": [
+        "This study was approved by the Comité de Ética de la Investigación de la Comunidad Autónoma de Aragón (CEICA): C.I. PI24/046"
     ]
 }
